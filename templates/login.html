@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Login</h2>
+        </div>
+        <div class="form-container">
+            <form class="login-form" action="/login" method="POST">
+                <input class="input-field" type="email" name="email" placeholder="Email" required><br>
+                <input class="input-field" type="password" name="password" placeholder="Password" required><br>
+                <button class="submit-btn" type="submit">Login</button>
+            </form>
+        </div>
+        <div class="forgot-password">
+            <p><a href="/forgot_password">Forgot Password?</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
+

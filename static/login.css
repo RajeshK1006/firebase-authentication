@@ -1,0 +1,77 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    background-color: #1f1f1f; /* Dark gray background */
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif; /* Choose a suitable font */
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+  }
+  
+  /* Form container styles */
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #4285f4; /* Blue border */
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4285f4; /* Blue background */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #1a73e8; /* Darker blue background on hover */
+  }
+  
+  /* Forgot password link styles */
+  .forgot-password {
+    text-align: center;
+  }
+  
+  .forgot-password a {
+    color: #4285f4; /* Blue text color */
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  

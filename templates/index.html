@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Welcome to the Club!</h2>
+            <h3>Intend - Inspire - Invent</h3>
+            <p>Join us by signing in or signing up.</p>
+        </div>
+        <div class="buttons">
+            <button class="signup-btn" onclick="window.location.href='/signup'">Sign Up</button>
+            <button class="login-btn" onclick="window.location.href='/login'">Sign In</button>
+        </div>
+    </div>
+</body>
+</html>
+
