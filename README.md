@@ -28,7 +28,7 @@ This project is a web application built with Python and Flask, integrating Fireb
 
 1. Clone this repository to your local machine:
 
--git clone <repository-url>
+-git clone "RepositoryURL"
 
 ## Install the required Python packages:
 
