@@ -26,7 +26,7 @@ This project is a web application built with Python and Flask, integrating Fireb
 
 ## Installation
 
-1. Clone this repository to your local machine:
+Clone this repository to your local machine:
 
 -git clone "RepositoryURL"
 
@@ -37,7 +37,7 @@ This project is a web application built with Python and Flask, integrating Fireb
 ## Usage
 -Run the Flask application:
 
-  - flask run
+- flask run
 
 -Access the application in your web browser at 'http://localhost:5000'.
 
